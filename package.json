@@ -1,0 +1,20 @@
+{
+  "name": "pnpm-bin",
+  "version": "1.0.0",
+  "description": "Provide a mechanism to call node files installed by pnpm with arguments for node and arguments for the application",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:justinanastos/pnpm-bin.git"
+  },
+  "author": "Justin Anastos <justin.anastos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justinanastos/pnpm-bin/issues"
+  },
+  "bin": "./src/index.js",
+  "homepage": "https://github.com/justinanastos/pnpm-bin#readme"
+}
