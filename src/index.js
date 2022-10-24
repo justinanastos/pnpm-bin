@@ -87,6 +87,7 @@ child_process.spawn(
   [...nodeArgs, getAbsoluteBinaryPath(binaryName), ...binaryArgs],
   {
     env: {
+      ...process.env,
       NODE_PATH: `${
         process.env.NODE_PATH ? `${process.env.NODE_PATH}:` : ''
       }${getNodePathEnv(binaryName)}`
